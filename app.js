@@ -3,7 +3,7 @@ let addToCartBtn = document.querySelector('#addToCart');
 
 addToCartBtn.addEventListener('click', function(){
     let number = 1;
-    let random = Math.floor(Math.random()*60);
+    let random = Math.ceil(Math.random()*60);
     let numberAmount = random*number;
 // text and buttons
 
