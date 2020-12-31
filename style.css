@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        padding:40px 10px;
+        background-color: #d4d4d1;
+}
+
+#input {
+         width: 70%;
+         outline: none;
+         padding: 5px 0px;
+         margin-right: 10px;
+}
+.area {
+ width: 80%;
+ margin: auto;
+ height: 60vh;
+ overflow: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr ;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.box {
+    background-color: rgb(247, 247, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+    border: #000 .2px ridge;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.box h2 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.change-box {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    padding: 10px;
+}
+.price-box  {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.delete-box {
+    justify-content: center;
+}
+
+.btn {
+        padding: 4px 9px;
+        margin: 5px 0px;
+        background-color: #444444;
+        font-size: 20px;
+        color: #fafafa;
+}
+
+.delete {
+          background-color: crimson;
+          color: white;
+}
+
+.add {
+    background-color: white;
+    color: #000;
+}
+
+
